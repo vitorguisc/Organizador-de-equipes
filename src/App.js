@@ -8,8 +8,8 @@ function App() {
   const times = [
     {
       nome: 'Programação',
-      corPrimaria: '',
-      corSecundaria: '',
+      corPrimaria: '#57C278',
+      corSecundaria: '#D9F7E9'
     },
     {
       nome: 'Front-End',
@@ -45,7 +45,6 @@ function App() {
 
   const [colaboradores, setColaboradore] = useState([])
   const aoNovoColaboradorAdicionado = (colaborador) => {
-    console.log(colaborador)
     setColaboradore([...colaboradores, colaborador])
   }
   return (
